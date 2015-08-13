@@ -1,0 +1,259 @@
+<style>
+
+
+body{
+   margin: 50px;
+   padding: 100px;
+   padding-top: 100px;
+}
+
+
+div{
+   margin: 0px;
+   padding: 0px;
+}
+img{
+   border: 0px;
+   margin: 0px;
+   padding: 0px;
+}
+table{
+   margin: 0px;
+   padding: 0px;
+}
+p{
+   margin: 15px;
+   padding: 0px;
+}
+ul{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 35px;
+   padding: 0px;
+   list-style-image: url('image location');
+   line-height: 20px; (gives spacing between list items)
+}
+a{
+   text-decoration: underline/none;
+   color: black;
+   font-weight: bold/normal;
+}
+a:hover{
+   text-decoration: underline/none;
+   color: #f2653b;
+   font-weight: bold/normal;
+   /*make sure to change at least one thing from your a tag definition*/
+}
+a:visited{
+   text-decoration: underline/none;
+   color: #193261;
+   font-weight: bold/normal;
+   /*make sure to change at least one thing from your a tag definition*/
+}
+
+h1{
+  color:#70abce;
+  line-height: 250%;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+  color:#70abce;
+  padding:50px;
+  font-size: 25px;
+  line-height: 26px:
+}
+
+
+.panel,.flip
+{
+padding:10px;
+background-color:#ede7e5;
+color:#f2653b;
+text-align: right;
+cursor:pointer;
+box-shadow: 4px 4px 4px grey;
+z-index:1000;
+line-height: 35px;
+}
+
+.flip{
+  position: fixed;
+  top:0px;
+  width:100%;
+  font-size: 24px;
+  background-color:#ede7e5;
+
+}
+.panel
+{
+position: fixed;
+top:40px;
+right:0px;
+padding:55px 10px 20px 10px;
+display:none;
+background-color:#ede7e5;
+color:#f2653b;
+z-index:1000;
+width:100px;
+font-size: 20px;
+}
+
+.headliner{
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background:white;
+  border-color:#193261;
+  border-width:5px;
+  border-style: solid;
+
+}
+
+.box{
+  border-style: solid;
+  border-color: #f2653b;
+  border-width: medium;
+  border-radius: 2px;
+  width:auto;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px 10px 20px 10px;
+
+}
+
+.boxWhite{
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+  border-radius: 2px;
+  width:auto;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px 10px 20px 10px;
+  background-color: white;
+}
+
+.boxblue {
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+  border-style: solid;
+  border-color:#70abce;
+  border-width: medium;
+  border-radius: 2px;
+  background-color:#70abce;
+  width:66%;
+  height:auto;
+  padding:10px;
+
+}
+
+.boxorange {
+
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+  border-style: solid;
+  border-color:white;
+  border-width: medium;
+  border-radius: 2px;
+  background-color:#f2653b;
+  width:75%;
+  height:auto;
+  padding:10px;
+
+}
+
+#rokkin{
+					background-color: white;
+					height: 100%;
+					width: 100vw;
+					padding: 0;
+					margin: 0;
+					overflow: visible;
+					position: fixed;
+					z-index: -1;
+					top: 0px;
+					left: 0;
+					background-image: url("http://www.wired.com/wp-content/uploads/blogs/playbook/wp-content/uploads/2010/05/pennstate.jpg");
+					responsive:true;
+        }
+.button {
+          display: block;
+          margin: auto;
+          vertical-align: middle;
+          text-align: center;
+          background: #f2653b;
+          font-size: 24px;
+          color:white;
+          width:75%;
+          height:60px;
+          box-shadow: 4px 4px 4px #6d6d6d;
+          padding:15px;
+        }
+
+.whitewash {
+          display: block;
+          background-color:#fff;
+}
+
+.buttonResponsive {
+          display: none;
+          }
+
+.snapifeye-widget{
+          height:auto !important;
+          }
+
+.footer{
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px 10px 20px 10px;
+  background-color: #6d6d6d;
+  min-height: 60px;
+
+}
+
+.profilepic{
+  max-width: 500px;
+  max-height: 500px;
+  width:66%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media (max-width: 650px) {
+.buttonResponsive {
+          display: block;
+          margin: auto;
+          text-align: center;
+          background: white;
+          font-size: 24px;
+          color:#f2653b;
+          width:75%;
+          height:60px;
+          box-shadow: 4px 4px 4px #6d6d6d;
+          padding:15px;
+        }
+      }
+
+
+
+</style>
